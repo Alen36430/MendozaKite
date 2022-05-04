@@ -5,9 +5,19 @@
 body{
     background-color: skyblue;
     padding: 0;
-    margin: 0;
-            
+    margin: 0;            
 }        
+
+.logo{
+    height: 30px;
+    width: 30px;
+    background-image: url(img/Logo2.gif);
+    background-size: cover;
+    border-radius: 100%;
+}
+.navbar{
+    height: 40px;
+}
 
 header{
     display: flex;
@@ -102,13 +112,8 @@ footer{
 .contenido01__container--reverse{
     flex-direction: row-reverse;
 }
-.videoconten{
-    height: 200px;
-    width: 150px;
-}
-#videohome{
-    margin-left: 2%;
-    object-fit: cover;
+.videohome{
+    text-align: center;
 }
 
 @media only screen and (min-width:420px) and (max-width:767px){
@@ -477,4 +482,41 @@ footer{
     text-decoration: none;
     margin: 15px;
     padding-bottom: 15px;
+}
+/*EQUIPO*/
+.equipo{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(9, 3, 3);
+}
+#tituloeq{
+    text-align: center
+}
+.tituloeq{
+    text-align: center;
+    padding: 10px;
+}
+.imgeq{
+    height: 300px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+}
+.imgeq1{
+    background-image: url(img/Equipokite.jpg);
+}
+.imgeq2{
+    background-image: url(img/Equipobarra.jpg);
+}
+.imgeq3{
+    background-image: url(img/Equipoarnes.jpg);
+}
+.imgeq4{
+    background-image: url(img/Equipotablas.png);
+}
+.imgeq5{
+    background-image: url(img/Equiponeoprene.jpg);
+}
+.imgeq6{
+    background-image: url(img/Equipootros.jpg);
 }
