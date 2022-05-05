@@ -26,7 +26,7 @@ header{
 .img01{
     height: 600px;
     width: 100%;
-    background-image: url(img/IMG-01.jpg);
+    background-image: url(Img/IMG-01.jpg);
     background-size: cover;   
     background-repeat: no-repeat;
     background-position: center;
@@ -194,7 +194,7 @@ footer{
 
 /* GALLERY */
 #fgaleria{
-    background-image: url(img/fondogaleria01.jpg);
+    background-image: url(Img/fondogaleria01.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -223,47 +223,47 @@ footer{
 }
 
 .img1{
-    background-image: url(img/KiteSurf-4.jpg);
+    background-image: url(Img/KiteSurf-4.jpg);
     background-size: cover;
     background-position: center;
 }
 .img2{ 
-    background-image: url(img/KiteSurf-Spot2.jpg);
+    background-image: url(Img/KiteSurf-Spot2.jpg);
     background-size: cover;
     background-position: center;
 }
 .img3{
-    background-image: url(img/KiteSurf-2.jpg);
+    background-image: url(Img/KiteSurf-2.jpg);
     background-size: cover;
     background-position: center;
 }
 .img4{
-    background-image: url(img/KiteSurf-12\ width.jpg);
+    background-image: url(Img/KiteSurf-12\ width.jpg);
     background-size: cover;
     background-position: center;
 }
 .img5{
-    background-image: url(img/NI-101.jpg);
+    background-image: url(Img/NI-101.jpg);
     background-size: cover;
     background-position: center;
 }
 .img6{
-    background-image: url(img/KiteSurf-11ro.jpg);
+    background-image: url(Img/KiteSurf-11ro.jpg);
     background-size: cover;
     background-position: center;
 }
 .img7{
-    background-image: url(img/KiteSurf-6.jpg);
+    background-image: url(Img/KiteSurf-6.jpg);
     background-size: cover;
     background-position: center;
 }
 .img8{
-    background-image: url(img/KiteSurf-7.jpg);
+    background-image: url(Img/KiteSurf-7.jpg);
     background-size: cover;
     background-position: center;
 }
 .img9{
-    background-image: url(img/KiteSurf-13\ width.jpg);
+    background-image: url(Img/KiteSurf-13\ width.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -426,7 +426,7 @@ footer{
     width: 100%;
     margin: auto;
     background-color: #121212;
-    background-image: url(img/NI-24.jpg);
+    background-image: url(Img/NI-24.jpg);
     background-size: cover;
     background-position: center;
     padding: 1.5rem 1rem;
@@ -503,20 +503,20 @@ footer{
     background-position: center;
 }
 .imgeq1{
-    background-image: url(img/Equipokite.jpg);
+    background-image: url(Img/Equipokite.jpg);
 }
 .imgeq2{
-    background-image: url(img/Equipobarra.jpg);
+    background-image: url(Img/Equipobarra.jpg);
 }
 .imgeq3{
-    background-image: url(img/Equipoarnes.jpg);
+    background-image: url(Img/Equipoarnes.jpg);
 }
 .imgeq4{
-    background-image: url(img/Equipotablas.png);
+    background-image: url(Img/Equipotablas.png);
 }
 .imgeq5{
-    background-image: url(img/Equiponeoprene.jpg);
+    background-image: url(Img/Equiponeoprene.jpg);
 }
 .imgeq6{
-    background-image: url(img/Equipootros.jpg);
+    background-image: url(Img/Equipootros.jpg);
 }
