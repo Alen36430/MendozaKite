@@ -476,9 +476,8 @@ $red: red ;
 }
 
 .pspot{
-    text-align: center;
-    text-transform: uppercase;
-    ;
+    margin-top: 50px;
+    margin-bottom: 50px
 }
 
 @mixin conten ($height, $border-r) {
