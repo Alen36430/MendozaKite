@@ -471,6 +471,15 @@ $blue: skyblue;
 $white: rgb(244, 246, 246); 
 $green: rgb(156, 239, 13);
 $red: red ;
+.tspots{
+    @extend .gallery, .titulo
+}
+
+.pspot{
+    text-align: center;
+    text-transform: uppercase;
+    ;
+}
 
 @mixin conten ($height, $border-r) {
     height: $height;

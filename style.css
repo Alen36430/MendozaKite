@@ -57,7 +57,7 @@ nav ul li a:hover {
   color: #e8e3e1;
 }
 
-.titulo {
+.titulo, .tspots {
   color: #1712123a;
   text-align: center;
   font-size: 100px;
@@ -149,7 +149,7 @@ footer {
     height: 300px;
     width: 100%;
   }
-  .titulo {
+  .titulo, .tspots {
     color: #1712123a;
     text-align: center;
     font-size: 50px;
@@ -186,7 +186,7 @@ footer {
     height: 150px;
     width: 100%;
   }
-  .titulo {
+  .titulo, .tspots {
     color: #1712123a;
     text-align: center;
     font-size: 25px;
@@ -229,7 +229,7 @@ footer {
   background-repeat: no-repeat;
 }
 
-.gallery {
+.gallery, .tspots {
   font-size: 30px;
   letter-spacing: 2px;
   color: #0e030a78;
@@ -313,7 +313,7 @@ footer {
 }
 
 @media only screen and (max-width: 319px) {
-  .gallery {
+  .gallery, .tspots {
     font-size: 15px;
     letter-spacing: 2px;
     color: #0e030a78;
@@ -455,7 +455,7 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-  .gallery {
+  .gallery, .tspots {
     font-size: 50px;
     letter-spacing: 10px;
     color: #0e030a78;
@@ -631,6 +631,12 @@ footer {
   text-decoration: none;
   margin: 15px;
   padding-bottom: 15px;
+}
+
+.pspot {
+  text-align: center;
+  text-transform: uppercase;
+  text-anchor: start;
 }
 
 .contenedor-img, .principe-img, .bomberos-img, .alamo-img, .sansebastian-img {
