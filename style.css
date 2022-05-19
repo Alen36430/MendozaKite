@@ -636,7 +636,6 @@ footer {
 .pspot {
   text-align: center;
   text-transform: uppercase;
-  text-anchor: start;
 }
 
 .contenedor-img, .principe-img, .bomberos-img, .alamo-img, .sansebastian-img {
