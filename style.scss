@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700;1,900&display=swap');
-
-
-
 body {
     background-color: skyblue;
     padding: 0;
@@ -14,7 +11,6 @@ body {
     background-size: cover;
     border-radius: 100%;
 }
-
 header {
     display: flex;
     justify-content: flex-end;
@@ -100,7 +96,6 @@ footer {
 .illustration {
     width: 100%;
     height: 250px;
-
 }
 .contenido01__container--reverse {
     flex-direction: row-reverse;
@@ -177,7 +172,6 @@ footer {
         height: 50%;
     }
 }
-
 /* GALLERY */
 #fgaleria {
     background-image: url(Img/fondogaleria01.jpg);
@@ -474,18 +468,15 @@ $red: red ;
 .tspots{
     @extend .gallery, .titulo
 }
-
 .pspot{
     margin-top: 50px;
     margin-bottom: 50px
 }
-
 @mixin conten ($height, $border-r) {
     height: $height;
     
     border-radius: $border-r;
 }
-    
 .contenedor-img, .principe-img, .bomberos-img, .alamo-img, .sansebastian-img{
     @include conten( 180px, 10%)
 }
@@ -500,7 +491,5 @@ $red: red ;
 .imgspot{
     @extend .img01;    
 }
-
-
 /*EQUIPO*/
 @import"equipo.scss"
