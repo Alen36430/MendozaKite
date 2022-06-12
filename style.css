@@ -23,9 +23,9 @@ header {
 }
 
 .img01, .imgspot {
-  height: 600px;
+  height: 700px;
   width: 100%;
-  background-image: url(Img/IMG-01.jpg);
+  background-image: url(Img/img001.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
